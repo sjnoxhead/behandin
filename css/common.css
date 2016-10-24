@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+
+}
+/*******************
+   头部样式
+   *****************/
+.hd_banner{
+    background-position: 50%;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    transform-style: preserve-3d;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.hd_banner.overlay-black, .hd_banner.overlay-white {
+    color: #fff;
+    position: relative;
+    z-index: 0;
+}
+.hd_banner.overlay-black::before, .hd_banner.overlay-white::before {
+    background-color: rgba(0,0,0,.6);
+    bottom: 0;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+/*fff*/
+.site-navigation{
+
+
+    z-index: 999;
+    transition: background-color .3s ease-out;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+.site-navigation .logo {
+    float: left;
+}
+.site-navigation .nav-menu {
+    float: right;
+}
+.site-navigation ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.site-navigation ul li{
+    float: left;
+}
+.site-navigation .nav-menu > li {
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+}
+.site-navigation .nav-menu a {
+    display: inline-block;
+    font-family: Raleway,Segoe UI,Lucida Grande,Helvetica,Arial,Microsoft YaHei,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 0 14px;
+    line-height: 100px;
+    color: #ffffff;
+    transition: color .2s linear,line-height .2s linear;
+}
+/**/
+.hd_banner .container, .hd_banner .container-fluid {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%) !important;
+}
+/**/
+.hd_banner.banner-full-height h1 {
+    font-size: 60px;
+    line-height: 70px;
+    color: #EEEEEE;
+    letter-spacing: 2px;
+    margin: 24px 0 16px;
+}
+.hd_banner h1 {
+    font-weight: 100;
+}
+.hd_banner h2{
+    font-size: 38px;
+    line-height: 48px;
+    letter-spacing: 2px;
+    margin: 24px 0 16px;
+    color: #eee;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+/*******************
+   搜索条样式
+   *****************/
+#index_search_box{
+    width: 100%;
+    height: 30px;
+}
+#index_search_box ul li{
+    float: left;
+    width: 60px;
+    text-align: center;
+    border-left: 1px solid #EEEEEE;
+}
+#index_search_box ul li a{
+    color: #a94442;
+}
