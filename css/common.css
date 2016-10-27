@@ -6,6 +6,23 @@ body{
     font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
 
 }
+.b_title{
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+    text-align: center;
+}
+.m_title{
+    font-size: 16px;
+    color: #333333;
+    font-weight: 700;
+    padding-bottom: 10px;
+
+}
+.m_title span{
+    padding-bottom: 8px;
+    border-bottom: 2px solid #0d6fb1;
+}
 /*******************
    头部样式
    *****************/
@@ -116,4 +133,35 @@ body{
 }
 #index_search_box ul li a{
     color: #a94442;
+}
+/*******************
+   首页服务菜单样式
+   *****************/
+.service-list dd{
+
+}
+.service-list dd a{
+    color: #333333;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    margin: 0 10px 5px 0;
+}
+.service-list dd a:hover{
+    color: #a94442;
+}
+/*******************
+   尾部样式
+   *****************/
+#footer{
+    color: #ffffff;
+}
+#footer .b_title{
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 14px;
+}
+#footer .foot_main{
+    margin-top: 20px;
 }
